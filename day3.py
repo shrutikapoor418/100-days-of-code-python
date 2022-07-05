@@ -38,3 +38,27 @@ if(extra_cheese=="y"):
   bill=bill+1
 print(bill)
 
+# 🚨 Don't change the code below 👇
+print("Welcome to the Love Calculator!")
+name1 = input("What is your name? \n")
+name2 = input("What is their name? \n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+namea=name1.lower()
+nameb=name2.lower()
+newn=name1+name2
+p=newn.count("t")
+q=newn.count("r")
+a=newn.count("u")
+b=newn.count("e")
+c=newn.count("l")
+d=newn.count("o")
+g=newn.count("v")
+h=newn.count("e")
+sum=p+q+a+b
+sum1=c+d+g+h
+st=str(sum)
+stt=str(sum1)
+abc=st+stt
+print(str(abc)+"%")
