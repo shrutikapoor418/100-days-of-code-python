@@ -1,3 +1,4 @@
-print("hello")
-p=input("name")
-print(f"p is {name}")
+def mypy():
+  print("me sleep")
+  print("ok, bye")
+mypy()
