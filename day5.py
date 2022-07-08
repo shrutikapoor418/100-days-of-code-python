@@ -17,3 +17,8 @@ print(av)
 #Write your code below this row 👇
 print(student_heights)
 print(sum(student_heights))
+#Write your code below this row 👇
+s=0
+for i in range(0,100,2):
+  s=s+i
+print(s)
