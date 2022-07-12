@@ -70,6 +70,29 @@ print(life_goals)
 
 
 
+#blind auction bid
+
+travel_log = [
+{
+  "country": "France",
+  "visits": 12,
+  "cities": ["Paris", "Lille", "Dijon"]
+},
+{
+  "country": "Germany",
+  "visits": 5,
+  "cities": ["Berlin", "Hamburg", "Stuttgart"]
+},
+]
+
+def add_new_country(country,visits,city):
+  print(f"you have been to{country} {visits} times ")
+
+  print(f"you have been to{city} {visits} times" )
+
+add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+print(travel_log)
+
 
 
 
