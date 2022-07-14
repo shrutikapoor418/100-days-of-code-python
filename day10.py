@@ -33,6 +33,41 @@ def format_name(f_name, l_name):
 
 
 
+
+from art import logo
+print("welcome to this cheap random calculator")
+print(logo)
+a=input("enter number")
+b=input("other number")
+print("enter + for add, - for minus ,* for multiply ,/ for divide ,** fo power")
+c=input("symbol")
+""" 
+this 
+is 
+multiline
+comm"""
+def calc(c):
+  s=0
+  if c=="+":
+    s=int(a)+int(b)
+    print(s)
+  elif c=="-":
+    s=int(a)-int(b)
+    print(s)
+  elif c=="*":
+    s=int(a)*int(b)
+    print(s)
+  elif c=="/":
+    s=int(a)/int(b)
+    print(s)
+
+calc(c)
+    
+    
+  
+
+
+
 def is_leap(year):
   if year % 4 == 0:
     if year % 100 == 0:
