@@ -1,3 +1,4 @@
+################### Scope ####################
 
 enemies = 1
 
@@ -7,3 +8,9 @@ def increase_enemies():
 
 increase_enemies()
 print(f"enemies outside function: {enemies}")
+def fun():
+  def drink_potion():
+    potion_strength=2
+    print(potion_strength)
+   print(potion_strength)
+fun()
