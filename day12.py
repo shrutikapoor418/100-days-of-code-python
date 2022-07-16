@@ -14,3 +14,7 @@ def fun():
     print(potion_strength)
    print(potion_strength)
 fun()
+game_l=3
+char=["nobita","doraemon","kitretsu","hero"]
+if game_l< 5:
+  print(char[0])
