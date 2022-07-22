@@ -1,12 +1,15 @@
-#turtle graphics
-import another_module
-print(another_module.another_var)
-import turtle
-a=turtle.Turtle()
+from turtle import Turtle,Screen
+tim=Turtle()
+print(tim)
+tim.shape("turtle")
+tim.color("coral")
+tim.forward(100)
+print()
+another_var=10
 my_screen=Screen()
-print(myscreen.canvheight)
+print(my_screen.canvheight)
 
-
+my_screen.exitonclick()
 
 
 
