@@ -14,3 +14,15 @@ screen = Screen()
 tim_tu.left(90)
 tim_tu.forward(100)
 screen.exitonclick()
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+import turtle as t
+
+tim = t.Turtle()
+
+########### Challenge 2 - Draw a Dashed Line ########
+for _ in range(15):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()
