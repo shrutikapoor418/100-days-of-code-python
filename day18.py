@@ -70,3 +70,19 @@ def draw_shape(num_sides):
 for shape_side_n in range(3, 20):
     tim.color(random.choice(colours))
     draw_shape(shape_side_n)
+
+    #random walk turtle
+    import random
+
+tim = t.Turtle()
+
+########### Challenge 4 - Random Walk ########
+colours = ["CornflowerBlue", "DarkOrchid", "IndianRed", "DeepSkyBlue", "LightSeaGreen", "wheat", "SlateGray", "SeaGreen","deep pink","crimson"]
+directions = [0, 90, 180, 270]
+tim.pensize(15)
+tim.speed("fastest")
+
+for _ in range(200):
+    tim.color(random.choice(colours))
+    tim.forward(30)
+    tim.setheading(random.choice(directions))
