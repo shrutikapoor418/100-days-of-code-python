@@ -11,4 +11,3 @@ p=input('pet name')
 sum=a+" "+p
 #5. Make sure the input cursor shows on a new line, see the example at:
 print("band name is :" +sum)
-#   https://replit.com/@appbrewery/band-name-generator-end
